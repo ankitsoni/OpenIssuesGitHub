@@ -8,6 +8,7 @@ import java.text.SimpleDateFormat
 
 class SampleController {
 
+
     def sample = {
         int ld,lw,bf,open =0;
 

@@ -11,6 +11,10 @@ class UrlMappings {
 			action = [GET: "sample"]
 		}
 
+		"/api/zomato"(controller: "google") {
+			action = [GET: "zomato"]
+		}
+
 		"/"(view:"/index")
 		"500"(view:'/error')
 	}
