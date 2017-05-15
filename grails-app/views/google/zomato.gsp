@@ -14,9 +14,9 @@
 <body>
 <%
     for (int i = 0; i < resUrls.size(); i++) {
-    String newLink = "Restaurant $i"
+        String newLink = "Restaurant $i"
 %>
-    <g:link url="${resUrls.get(i)}">${newLink} </g:link></br>
+<g:link url="${resUrls.get(i)}">${newLink}</g:link></br>
 <%
     }
 %>
